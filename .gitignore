@@ -1,0 +1,47 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# === Ambiente Virtual ===
+venv/
+env/
+ENV/
+.venv/
+
+# === Dados (são pesados — não vão pro Git) ===
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# === Modelos serializados ===
+models/*
+!models/.gitkeep
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
+
+# === Logs e cache ===
+*.log
+.cache/
+
+# === Variáveis sensíveis ===
+.env
+*.env
+
+# === Output de notebooks (opcional — alguns times preferem manter) ===
+# Mantemos os notebooks com output para mostrar resultados no GitHub
